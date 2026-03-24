@@ -1,0 +1,30 @@
+# 🚀 Exercício 5 – Cálculo de Custo de Pavimentação
+
+## 📸 Fluxograma
+
+visualize abaixo 👇
+
+![Fluxograma](https://(https://drive.google.com/file/d/1EG0FY_u1X4HResnn7jsz1-E-qimybVWP/view?usp=drive_link)
+
+---
+
+## 💻 Código Java
+
+public class Pavimentacao {
+    public static void main(String[] args) {
+
+        // Valores definidos
+        double raio = 10.0;
+        double valorMetroQuadrado = 50.0;
+
+        // Processamento 1: área
+        double area = Math.PI * Math.pow(raio, 2);
+
+        // Processamento 2: custo
+        double custo = area * valorMetroQuadrado;
+
+        // Resultado
+        System.out.printf("Área da praça: %.2f m²%n", area);
+        System.out.printf("Custo total: R$ %.2f%n", custo);
+    }
+}
