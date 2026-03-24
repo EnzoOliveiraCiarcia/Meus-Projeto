@@ -1,0 +1,10 @@
+public class calveti4 {
+    public static void main(String[] args) {
+        double reais = 100.0;
+        double cotacao = 5.00;
+
+        double dolares = reais / cotacao;
+
+        System.out.printf("Valor em dólares: %.2f%n", dolares);
+    }
+}
