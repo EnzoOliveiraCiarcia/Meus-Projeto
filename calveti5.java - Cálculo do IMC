@@ -1,0 +1,11 @@
+public class calveti5 {
+    public static void main(String[] args) {
+        double peso = 70.0;
+        double altura = 1.75;
+
+        double imc = peso / (altura * altura);
+        // ou: double imc = peso / Math.pow(altura, 2);
+
+        System.out.printf("IMC: %.2f%n", imc);
+    }
+}
