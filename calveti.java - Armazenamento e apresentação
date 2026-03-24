@@ -1,0 +1,14 @@
+public class calveti {
+    public static void main (String[] args) {
+
+    //criando variáveis
+    String nome = "Enzo";
+        int idade = 18;
+        double altura = 1.80;
+
+        // Exibindo no console formatado
+        System.out.println("Nome: " + nome);
+        System.out.println("Idade: " + idade + " anos");
+        System.out.println("Altura: " + altura + " m");
+    }
+}
