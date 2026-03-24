@@ -1,0 +1,8 @@
+public class calveti2 {
+    public static void main(String[] args) {
+        double lado = 4.0;
+        double area = lado * lado;
+
+        System.out.println("Área do quadrado: " + area);
+    }
+}
