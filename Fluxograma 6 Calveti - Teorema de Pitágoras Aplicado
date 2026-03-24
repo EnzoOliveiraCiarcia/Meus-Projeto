@@ -1,0 +1,25 @@
+# 🚀 Exercício 6 – Teorema de Pitágoras Aplicado
+
+## 📸 Fluxograma
+
+visualize abaixo 👇
+
+![Fluxograma](https://drive.google.com/file/d/12GgOK_uD8tP_fi7EfQpArc0bFtfo3G7c/view?usp=drive_link)
+---
+
+## 💻 Código Java
+
+public class Pitagoras {
+    public static void main(String[] args) {
+
+        // Valores definidos
+        double a = 3.0;
+        double b = 4.0;
+
+        // Cálculo em UMA linha (como pedido)
+        double h = Math.sqrt(Math.pow(a, 2) + Math.pow(b, 2));
+
+        // Resultado
+        System.out.printf("Hipotenusa: %.2f%n", h);
+    }
+}
