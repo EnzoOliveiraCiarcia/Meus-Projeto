@@ -1,0 +1,29 @@
+# 🚀 Exercício 4 – Consumo Energético Residencial
+
+## 📸 Fluxograma
+
+visualize abaixo 👇
+
+![Fluxograma](https://(https://drive.google.com/drive/u/0/folders/1ox0CZiB_xXw55p9CRMtQMPab3lEl6Cja)
+
+---
+
+## 💻 Código Java
+
+public class ConsumoEnergia {
+    public static void main(String[] args) {
+
+        // Valores definidos
+        double potencia = 1000; // em Watts
+        double horasPorDia = 5; // horas de uso por dia
+        double precoKwh = 0.75; // preço por kWh
+
+        // Cálculos
+        double consumoDiario = (potencia * horasPorDia) / 1000; // kWh
+        double consumoMensal = consumoDiario * 30;
+        double custo = consumoMensal * precoKwh;
+
+        // Resultado
+        System.out.printf("Custo mensal: R$ %.2f%n", custo);
+    }
+}
