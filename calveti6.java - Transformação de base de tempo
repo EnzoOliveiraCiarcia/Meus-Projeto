@@ -1,0 +1,16 @@
+public class calveti6 {
+    public static void main(String[] args) {
+
+        int totalSegundos = 3665;
+
+        int horas = totalSegundos / 3600;
+        int resto = totalSegundos % 3600;
+
+        int minutos = resto / 60;
+        int segundos = resto % 60;
+
+        System.out.println("Horas: " + horas);
+        System.out.println("Minutos: " + minutos);
+        System.out.println("Segundos: " + segundos);
+    }
+}
