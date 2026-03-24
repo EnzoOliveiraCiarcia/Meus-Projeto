@@ -1,0 +1,28 @@
+# 🚀 Exercício 2 – Conversor de Moedas para Viagens
+
+## 📸 Fluxograma
+
+visualize abaixo 👇
+
+![Fluxograma](https://(https://drive.google.com/file/d/1wkIeGL_7lF4LTo4qek4Bf3c3QL_GZOgu/view?usp=drive_link)
+
+---
+
+## 💻 Código Java
+
+public class ConversorMoeda {
+    public static void main(String[] args) {
+
+        // Valores definidos diretamente no código
+        double reais = 1000.00;
+        double cotacao = 5.00;
+
+        // Cálculo
+        double dolares = reais / cotacao;
+
+        // Resultado
+        System.out.printf("Valor em reais: R$ %.2f%n", reais);
+        System.out.printf("Cotação do dólar: %.2f%n", cotacao);
+        System.out.printf("Você terá: US$ %.2f%n", dolares);
+    }
+}
