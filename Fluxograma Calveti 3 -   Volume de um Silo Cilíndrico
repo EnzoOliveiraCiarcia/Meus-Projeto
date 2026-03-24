@@ -1,0 +1,28 @@
+# 🚀 Exercício 3 –  Volume de um Silo Cilíndrico
+
+## 📸 Fluxograma
+
+visualize abaixo 👇
+
+![Fluxograma](https://https://(drive.google.com/file/d/1fMeaMQPorl2ifH3TJsRFF1kVCrv7EUS7/view?usp=drive_link)
+
+---
+
+## 💻 Código Java
+
+public class VolumeSilo {
+    public static void main(String[] args) {
+
+        // Valores definidos
+        double raio = 3.0;
+        double altura = 10.0;
+
+        // Cálculo do volume
+        double volume = Math.PI * Math.pow(raio, 2) * altura;
+
+        // Resultado
+        System.out.printf("Raio: %.2f m%n", raio);
+        System.out.printf("Altura: %.2f m%n", altura);
+        System.out.printf("Volume do silo: %.2f m³%n", volume);
+    }
+}
