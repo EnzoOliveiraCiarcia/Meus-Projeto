@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Exercicio1 {
+public class IgualDiferente {
     public static void main (String[] args){
     Scanner scanner = new Scanner(System.in);
     int numero1;
