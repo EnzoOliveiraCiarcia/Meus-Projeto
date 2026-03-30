@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Exercicio2 {
+public class MaiorOuIgual {
     public static void main (String[] args){
     Scanner scanner = new Scanner(System.in);
     int numero1;
