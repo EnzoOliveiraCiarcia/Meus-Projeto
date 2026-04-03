@@ -1,73 +1,96 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 </head>
+
 <body>
 
-<!-- aqui -->
-<h2>INSERT INTO task_db</h2>
-
-<!-- aqui -->
-
-<div class="banner">
-    ATENÇÃO: Sistema Alpha - PID 40221
-</div>
-
-<!-- aqui  -->
-
-<input type="text">
-
-<p class="erro">
-    ERR_0x003F: VALIDATION_CONSTRAINT_FAIL
-</p>
-
-<button class="btn-commit">COMMIT</button>
-
-<a href="#" class="link-rollback">ROLLBACK</a>
-
-<p class="contador">-Cliques registrados: 42</p>
-
-<!-- aqui nos comentários -->
-
-<ul>
-    <li>
-        <div>
-            <b>Comprar leite</b><br>
-            <!-- aqui -->
-            <span class="meta">
-                ID: 173899 | Hash: a3f2c9
-            </span>
+    <div class="container-row p-5">
+        <div class="row">
+            <div class="col-12 border">
+                12 colunas
+            </div>
         </div>
 
-        <button class="btn-drop">DROP</button>
-    </li>
 
-    <li>
-        <div>
-            <b>(null)</b><br>
-            <span class="meta">
-                ID: 173900 | Hash: a7be4d1
-            </span>
+        <div class="row">
+            <div class="col-2 border">
+                2 colunas
+            </div>
         </div>
 
-        <button class="btn-drop">DROP</button>
-    </li>
 
-    <li>
-        <div>
-            <b>Estudar para a prova</b><br>
-            <span class="meta">
-                ID: 173901 | Hash: e9c1a7
-            </span>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 border">
+                sm: 12, md: 6
+            </div>
+
+            <div class="col-sm-12 col-md-6 border">
+                sm: 12, md: 6
+            </div>
+
         </div>
 
-        <button class="btn-drop">DROP</button>
-    </li>
-</ul>
 
+
+        <div class="row">
+            <div class="col-sm-12 col-md-4 col-lg-5 border">
+                sm: 12, md: 4, lg: 5
+            </div>
+
+            <div class="col-sm-12 col-md-4 col-lg-5 border">
+                sm: 12, md: 4, lg: 5
+            </div>
+
+            <div class="col-sm-12 col-md-4 col-lg-5 border">
+                sm: 12, md: 4, lg: 5
+            </div>
+
+            <div class="col border mt-2">
+                Largura igual
+            </div>
+
+            <div class="col border mt-2">
+                Largura igual
+            </div>
+               
+            <div class="col border mt-2">
+            Largura igual
+        </div>
+
+        <div class="row">
+            <div class="col-md border mt-2">md</div>
+            <div class="col-md border mt-2">md</div>
+            <div class="col-md border mt-2">md</div>
+        </div>
+
+        <div class="row">
+            <div class="col-4 border mt-2 order-2">
+                sou a 1
+            </div>
+            <div class="col-4 border mt-2 order-3">
+                sou a 2
+            </div>
+            <div class="col-4 border mt-2 order-1">
+                sou a 3
+            </div>
+        </div>
+
+        </div>
+
+        <div class="container bg-primary">
+            <h1>Hello World!</h1>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+            crossorigin="anonymous"></script>
 </body>
+
 </html>
