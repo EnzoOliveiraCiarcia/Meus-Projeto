@@ -9,10 +9,12 @@ public class AdivinhaNumero {
 
     int sorteado = random.nextInt(10) + 1;
      int chute;
+     int contador = 0;
      do {
     System.out.print ("adivinhe um numero de 1 a 10: ");
     chute = scanner.nextInt();
-     } while (chute != sorteado);
+    contador++;
+     } while (chute != sorteado && contador < 3);
      scanner.close();
     }
 }
